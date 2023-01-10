@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Se abre pagina:]]>
+    </line>
+    <line>
+      <![CDATA[<br><H1>Se busca cars</H1>]]>
+    </line>
+    <line>
+      <![CDATA[<img src="file://C:\Reporteador\ScreenShots\20230110_015126.png" alt=""/>]]>
+    </line>
+    <line>
+      <![CDATA[<br><H1>Resultado de la busqueda</H1>]]>
+    </line>
+    <line>
+      <![CDATA[<img src="file://C:\Reporteador\ScreenShots\20230110_015142.png" alt=""/>]]>
+    </line>
+    <line>
+      <![CDATA[<br><H1>Agregar producto a Carrito</H1>]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2023-01-10T01:51:23 CST" name="Default suite" finished-at="2023-01-10T01:51:43 CST" duration-ms="19303">
+    <groups>
+    </groups>
+    <test started-at="2023-01-10T01:51:23 CST" name="Default test" finished-at="2023-01-10T01:51:43 CST" duration-ms="19303">
+      <class name="com.intcont.testng.TestNGDefaultReport2">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.intcont.testng.TestNGDefaultReport2@78123e82]" started-at="2023-01-10T01:51:19 CST" name="setup" finished-at="2023-01-10T01:51:23 CST" duration-ms="3929" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="beforeEachMethod()[pri:0, instance:com.intcont.testng.TestNGDefaultReport2@78123e82]" started-at="2023-01-10T01:51:23 CST" name="beforeEachMethod" finished-at="2023-01-10T01:51:25 CST" duration-ms="1991" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Se abre pagina:]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeEachMethod -->
+        <test-method signature="Busqueda_De_Cars()[pri:0, instance:com.intcont.testng.TestNGDefaultReport2@78123e82]" started-at="2023-01-10T01:51:25 CST" name="Busqueda_De_Cars" finished-at="2023-01-10T01:51:43 CST" duration-ms="17261" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[<br><H1>Se busca cars</H1>]]>
+            </line>
+            <line>
+              <![CDATA[<img src="file://C:\Reporteador\ScreenShots\20230110_015126.png" alt=""/>]]>
+            </line>
+            <line>
+              <![CDATA[<br><H1>Resultado de la busqueda</H1>]]>
+            </line>
+            <line>
+              <![CDATA[<img src="file://C:\Reporteador\ScreenShots\20230110_015142.png" alt=""/>]]>
+            </line>
+            <line>
+              <![CDATA[<br><H1>Agregar producto a Carrito</H1>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Busqueda_De_Cars -->
+        <test-method is-config="true" signature="endOfSuite()[pri:0, instance:com.intcont.testng.TestNGDefaultReport2@78123e82]" started-at="2023-01-10T01:51:43 CST" name="endOfSuite" finished-at="2023-01-10T01:51:43 CST" duration-ms="454" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endOfSuite -->
+      </class> <!-- com.intcont.testng.TestNGDefaultReport2 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
